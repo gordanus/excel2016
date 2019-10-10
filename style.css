@@ -117,6 +117,12 @@ header {
     }
 
     .arrow-container {
-      display: none;
+      display: block;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotateZ(0deg);
     }
   }
