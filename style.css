@@ -121,7 +121,7 @@ header {
       width: 100px;
       height: 100px;
       position: absolute;
-      top: 90%;
+      top: 80%;
       left: 50%;
       transform: translate(-50%, -50%) rotateZ(0deg);
     }
