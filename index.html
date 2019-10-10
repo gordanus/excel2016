@@ -9,6 +9,7 @@
   <script src="bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>Kurs Napredni Excel</title>
 </head>
 
@@ -25,67 +26,73 @@
           <p class="lead mb-0">Napredne tehnike rada u programu MS Excel</p>
         </div>
       </div>
+      <a href="#firstSection" class="arrow-container">
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+        <div class="arrow"></div>  
+      </a>
     </div>
   </header>
+  
   <!-- https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4 -->
-  <div class="my-5">
+  <div class="my-5" id="firstSection">
     <div class="container">
       <div class="row" style="margin-bottom: 10px;">
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">Lekcija 1</h5>
               <p class="card-text">Na linku ispod možete preuzeti primere i vežbe iz Lekcije 1.</p>
-              <a href="#" class="btn btn-success">Preuzimanje</a>
+              <a href="Lekcija 1.zip" class="btn btn-success">Preuzimanje</a>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">Lekcija 2</h5>
               <p class="card-text">Na linku ispod možete preuzeti primere i vežbe iz Lekcije 2.</p>
-              <a href="#" class="btn btn-success">Preuzimanje</a>
+              <button class="btn btn-success" onclick="lekcijaDva()" target="_self">Preuzimanje</button>
             </div>
           </div>
         </div>
       </div>
       <div class="row" style="margin-bottom: 10px;">
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">Lekcija 3</h5>
               <p class="card-text">Na linku ispod možete preuzeti primere i vežbe iz Lekcije 3.</p>
-              <a href="#" class="btn btn-success">Preuzimanje</a>
+              <button class="btn btn-success" onclick="lekcijaTri()" target="_self">Preuzimanje</button>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">Lekcija 4</h5>
               <p class="card-text">Na linku ispod možete preuzeti primere i vežbe iz Lekcije 4.</p>
-              <a href="#" class="btn btn-success">Preuzimanje</a>
+              <button class="btn btn-success" onclick="lekcijaCetiri()" target="_self">Preuzimanje</button>
             </div>
           </div>
         </div>
       </div>
       <div class="row" style="margin-bottom: 10px;">
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">Lekcija 5</h5>
               <p class="card-text">Na linku ispod možete preuzeti primere i vežbe iz Lekcije 3.</p>
-              <a href="#" class="btn btn-success">Preuzimanje</a>
+              <button class="btn btn-success" onclick="lekcijaPet()" target="_self">Preuzimanje</button>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card text-center border-success mb-3">
+          <div class="card text-center border-success mb-3 myCard">
             <div class="card-body text-success">
               <h5 class="card-title">BONUS zadaci</h5>
               <p class="card-text">Na linku ispod možete preuzeti BONUS zadatke.</p>
-              <a href="#" class="btn btn-success disabled">Uskoro...</a>
+              <button class="btn btn-success" disabled>Uskoro...</button>
             </div>
           </div>
         </div>
