@@ -46,6 +46,19 @@ header {
     background-color: rgb(208, 255, 208);
   }
 
+  .footer {
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 0;
+  }
+  
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
 
   /* down arrow */
 
